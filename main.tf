@@ -25,6 +25,7 @@ resource "azurerm_storage_container" "sc" {
   container_access_type = "private"
 }
 
+resource "null_resource" "example" {}
 
 output "resource_group_name" {
     value = azurerm_resource_group.rg.name
