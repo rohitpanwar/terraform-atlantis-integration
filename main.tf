@@ -27,6 +27,7 @@ resource "azurerm_storage_container" "sc" {
 
 resource "null_resource" "example1" { }
 resource "null_resource" "example2" { }
+resource "null_resource" "example3" { }
 
 output "resource_group_name" {
     value = azurerm_resource_group.rg.name
